@@ -1,5 +1,5 @@
 <?php 
-$con = mysqli_connect('192.168.1.3:3306', 'root', 'DB&$pass320', 'example-db');
+$con = mysqli_connect('adres_ip:port', 'user', 'password', 'db-name');
 if(!$con){
     die("Connection Error");
 }
